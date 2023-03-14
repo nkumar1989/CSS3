@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS : Attribue Selectors</title>
+    <style>
+        #mymenu { /* ID Selector*/
+            font-size: 25px;
+            font-family: Tahoma;
+        }
+
+        a { /* Type Selector*/
+            color: green;
+        }
+
+        a[target] { /* Attribute Selector*/
+            font-size: 2em;
+        }
+
+        a[target=_blank] { /* Attribute Selector*/
+            color: goldenrod;
+            text-decoration: none;
+        }
+        .hello{/* class Selector*/
+            border: 5px solid red; 
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mymenu" class="hello">
+        <a href=""> Java Training</a> <br />
+        <a href="" target="_blank"> Python Training</a> <br />
+        <a href=""> Spring Boot Training</a> <br />
+        <a href="" target="_blank"> Angular Training</a> <br />
+        <a href=""> MongoDB Training</a> <br />
+        <a href="" target="myframe"> MicroServices Training</a> <br />
+    </div>
+</body>
+
+</html>

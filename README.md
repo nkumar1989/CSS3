@@ -1,2 +1,2 @@
-# Java-Projects
-This is Sample Reposatory for all my java Handson Projects
+# CSS3
+This is Sample Reposatory for all my CSS3 Handson Projects
